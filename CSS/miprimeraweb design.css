@@ -1,0 +1,39 @@
+body {
+    background:#040000;
+    color: 979;
+}
+/*Dentro de body va lo q queramos modificar del cuerpo de la pagina
+background para cambiar el color de fondo
+color para cambiar color de la fuente de texto */
+/*Los selectores nos permiten elegir que elemento deseamos cambiar, y proceder a modificarlo*/
+
+* {
+    margin: 2 ;
+    padding:1 ; /*   * es el selector universal, se usa mas q todo para el margen y el margen 
+    interno*/
+
+}
+
+h2, h3 {
+    
+    color: aqua;
+}
+
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 20px;
+}
+
+section p {
+    color: red;
+}
+
+.sidebar {
+    color: green;
+}
+
+footer {
+    color: aliceblue;
+}

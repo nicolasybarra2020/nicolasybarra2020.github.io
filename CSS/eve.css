@@ -1,0 +1,117 @@
+body{
+    background-color: rgba(119,74, 167, 50%)
+}
+
+
+div.cabecera{
+    width: 600;
+    height: 200px;
+    border: 2px;
+    color: red;
+    background-image: url("../Saved Pictures/Patitas2.jpg");
+    
+    background-repeat: round;
+    opacity: 0.8;
+    padding: 2px;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    
+}
+    
+
+div.asidediv{
+    width: 250px;
+    height: 580px;
+    background-color:rgba(0, 0, 0, 90%);
+    position:absolute;
+    top: 218px;
+    left: 79.5%;
+
+}
+    
+img.aside {
+    position: relative;
+    left: 16%;
+    top: 5%;
+    border-radius: 50%; /*REDONDEO DE IMAGEN*/
+}
+
+/*display:block 
+display: inline
+
+De que modo alinearemos los elementos
+*/
+
+/*
+Para centrar una imagen o cualquier contenedor necesito un width, un margin:auto, y un
+display:block
+
+
+*/
+aside p {
+    color: aliceblue;
+    padding: 20px;
+
+}
+
+audio {
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+
+h2.principal {
+    font-size: 35px;
+    margin: 15px;
+}
+
+.principalp{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.quince{
+    width: 75%;
+
+}
+
+#asidediv2{
+    position: absolute;
+    top: 800px;
+}
+
+#asidediv3{
+    position: absolute;
+    top: 1382px;
+
+}
+
+#bobbyid{
+    position: relative;
+    margin: 8px;
+}
+
+.bobby3{
+    position: absolute;
+    top: 35px;
+
+}
+
+.bobby7{
+    position: absolute;
+    top: 31px;
+    left: 3px;
+}
+
+.bobby8{
+    position: absolute;
+    left: 414px;
+    top: 34px;
+
+}
+
+
